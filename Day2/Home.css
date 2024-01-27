@@ -1,0 +1,103 @@
+
+.home{ background-image: url('https://source.unsplash.com/1600x900/?waterfront'); /* Replace with your waterfront background image URL */
+  background-size: cover;
+ 
+  font-family: 'Raleway', sans-serif;
+  
+  height: 100vh;
+  color: #fff;
+}
+  header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  .home ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .home ul li a:hover {
+    background: #ffffff70;
+    color: blue;
+  }
+  nav ul {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ecf0f1af;
+
+  }
+  
+  .hero h2 {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .feature {
+    text-align: center;
+    max-width: 300px;
+  }
+  .foot{
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
