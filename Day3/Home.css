@@ -1,0 +1,183 @@
+.home{ background-image: url('https://source.unsplash.com/1600x900/?waterfront'); /* Replace with your waterfront background image URL */
+  background-size: cover;
+ 
+  font-family: 'Raleway', sans-serif;
+  
+  height: 100vh;
+  color: #fff;
+}
+.review.active {
+  opacity: 1;
+}
+
+.review:not(.active) {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Adjustments for responsiveness */
+
+/* @media only screen and (max-width: 768px) {
+  .down {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dw {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home__image img {
+    height: 300px;
+  }
+} */
+/* Home.css */
+
+/* ... (previous styles) */
+
+.review {
+  flex: 1;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+ 
+  transition: opacity 1s ease-in-out, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.review:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Add a more pronounced shadow on hover */
+
+}
+
+.review p {
+  color: #060101;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.review:not(.active) {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.95); /* Decrease size for inactive reviews */
+}
+
+.user-review-input {
+  margin-top: 20px;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  /* border: 1px solid #ddd; */
+}
+
+  header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+
+  .home ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+
+  .home ul li a:hover {
+    background: #ffffff70;
+    color: blue;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ecf0f1af;
+
+  }
+  
+  .hero h2 {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .feature {
+    text-align: center;
+    max-width: 300px;
+  }
+  .foot{
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
