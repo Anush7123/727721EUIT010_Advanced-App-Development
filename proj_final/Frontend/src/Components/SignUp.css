@@ -1,0 +1,87 @@
+#signup-main {
+  background-image: url('https://source.unsplash.com/1600x900/?waterfront'); /* Replace with your waterfront background image URL */
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+  color: #fff;
+  padding: 10% 30% 0% 30%;
+}
+
+.scontainer {
+  background: rgba(82, 80, 80, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  /* margin: 10%; */
+  width: 100%;
+  /* max-width: 544px; */
+  box-sizing: border-box;
+  text-align: center;
+  color: #d5c8c8;
+}
+
+.s-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: #c3cbce;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+label {
+  color: #eff1f2;
+  margin-bottom: 8px;
+  text-align: left;
+  width: 100%;
+}
+
+input {
+  padding: 12px;
+margin-bottom: 16px;
+width: 100%;
+box-sizing: border-box;
+border: none;
+border-bottom: 2px solid #3498db;
+color: #fff;
+background-color: transparent; 
+transition: border-bottom-color 0.3s ease;
+}
+
+input:focus {
+  border-bottom-color: #007BFF;
+}
+
+s-button {
+  padding: 12px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* transition: background-color 0.3s ease; */
+}
+
+s-button:hover {
+  background-color: #007BFF;
+}
+
+#error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#linkbox{
+  color: #fff;
+  margin-bottom: 8px;
+  text-align: left;
+  width: 100%;
+}
+
+#llabelform{
+  color: #fff;
+}
